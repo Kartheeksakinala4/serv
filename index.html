@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CyberShield Pro — IT Consulting & Cybersecurity Services</title>
+  <meta name="description" content="Expert IT consulting in cybersecurity, digital forensics, and data recovery. Penetration testing, SOC services, forensic analysis, and physical HDD recovery." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-icon">&#9632;</span>
+        <span class="logo-text">Cyber<span class="accent">Shield</span> Pro</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#cybersecurity">Cybersecurity</a></li>
+        <li><a href="#forensics">Forensics</a></li>
+        <li><a href="#data-recovery">Data Recovery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn-nav">Get a Quote</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <canvas id="matrixCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">Trusted IT Security Partner</div>
+      <h1 class="hero-title">Defend. Investigate.<br /><span class="accent">Recover.</span></h1>
+      <p class="hero-subtitle">
+        Enterprise-grade cybersecurity, digital forensics, and data recovery services
+        engineered to protect your organisation and restore what matters most.
+      </p>
+      <div class="hero-cta">
+        <a href="#services" class="btn btn-primary">Explore Services</a>
+        <a href="#contact" class="btn btn-outline">Free Consultation</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">500+</span>
+          <span class="stat-label">Clients Protected</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">1,200+</span>
+          <span class="stat-label">Incidents Resolved</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">99.9%</span>
+          <span class="stat-label">SOC Uptime</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES OVERVIEW ===== -->
+  <section class="services-overview" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What We Do</span>
+        <h2>Comprehensive IT Security &amp; Recovery</h2>
+        <p>Three pillars of specialised expertise, delivered by certified professionals.</p>
+      </div>
+      <div class="overview-grid">
+        <a href="#cybersecurity" class="overview-card card-cyber">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4L8 12V24C8 33.4 15.2 42.2 24 44C32.8 42.2 40 33.4 40 24V12L24 4Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              <path d="M18 24L22 28L30 20" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Cybersecurity</h3>
+          <p>Penetration testing, SOC services, firewall deployment, EDR/DLP, and threat intelligence.</p>
+          <span class="card-cta">Learn more &rarr;</span>
+        </a>
+        <a href="#forensics" class="overview-card card-forensics">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="22" cy="22" r="12" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M31 31L42 42" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M18 22H26M22 18V26" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Digital Forensics</h3>
+          <p>Damaged drive forensics, image &amp; video analysis, and court-admissible evidence extraction.</p>
+          <span class="card-cta">Learn more &rarr;</span>
+        </a>
+        <a href="#data-recovery" class="overview-card card-recovery">
+          <div class="card-icon">
+            <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="16" width="32" height="22" rx="3" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M16 16V12C16 9.8 17.8 8 20 8H28C30.2 8 32 9.8 32 12V16" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="24" cy="27" r="4" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M20 27H16M28 27H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Data Recovery</h3>
+          <p>ISO-certified laminar chamber, MRTLab &amp; Dolphin Data Lab hardware-software solutions.</p>
+          <span class="card-cta">Learn more &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CYBERSECURITY ===== -->
+  <section class="service-detail" id="cybersecurity">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-cyber">Cybersecurity</span>
+        <h2>Protect Your Organisation from Every Angle</h2>
+        <p>From proactive testing to around-the-clock monitoring, we cover every layer of your security posture.</p>
+      </div>
+
+      <!-- Penetration Testing -->
+      <div class="service-block" id="pentest">
+        <div class="service-block-header">
+          <div class="service-number">01</div>
+          <div>
+            <h3>Penetration Testing</h3>
+            <p class="service-desc">Simulated real-world attacks to uncover exploitable vulnerabilities before adversaries do.</p>
+          </div>
+        </div>
+        <div class="pentest-grid">
+          <div class="pentest-card">
+            <div class="pt-icon web-icon">
+              <svg viewBox="0 0 32 32" fill="none"><circle cx="16" cy="16" r="12" stroke="currentColor" stroke-width="2"/><path d="M4 16H28M16 4C12 8 10 12 10 16C10 20 12 24 16 28M16 4C20 8 22 12 22 16C22 20 20 24 16 28" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <h4>Web Application</h4>
+            <p>OWASP Top 10, SQL injection, XSS, CSRF, authentication bypass, business logic flaws.</p>
+            <ul class="feature-list">
+              <li>Manual &amp; automated testing</li>
+              <li>API security assessment</li>
+              <li>Source code review</li>
+              <li>Detailed remediation report</li>
+            </ul>
+          </div>
+          <div class="pentest-card">
+            <div class="pt-icon api-icon">
+              <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="10" width="24" height="12" rx="2" stroke="currentColor" stroke-width="2"/><path d="M10 16H22M16 10V22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h4>API Security</h4>
+            <p>REST, GraphQL, and SOAP API testing including authentication, authorisation, and injection attacks.</p>
+            <ul class="feature-list">
+              <li>OWASP API Top 10</li>
+              <li>Token &amp; session analysis</li>
+              <li>Rate limiting &amp; fuzzing</li>
+              <li>BOLA / BFLA testing</li>
+            </ul>
+          </div>
+          <div class="pentest-card">
+            <div class="pt-icon mobile-icon">
+              <svg viewBox="0 0 32 32" fill="none"><rect x="9" y="3" width="14" height="26" rx="3" stroke="currentColor" stroke-width="2"/><circle cx="16" cy="26" r="1.5" fill="currentColor"/></svg>
+            </div>
+            <h4>Mobile Application</h4>
+            <p>iOS &amp; Android security testing covering data storage, network traffic, and reverse engineering.</p>
+            <ul class="feature-list">
+              <li>OWASP MASVS compliance</li>
+              <li>Binary &amp; runtime analysis</li>
+              <li>Certificate pinning review</li>
+              <li>Sensitive data exposure</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Security Posture -->
+      <div class="service-block">
+        <div class="service-block-header">
+          <div class="service-number">02</div>
+          <div>
+            <h3>Organisation Security Posture Analysis</h3>
+            <p class="service-desc">A holistic review of your people, processes, and technology against industry frameworks.</p>
+          </div>
+        </div>
+        <div class="posture-grid">
+          <div class="posture-item">
+            <span class="posture-icon">&#9670;</span>
+            <div>
+              <h4>Gap Assessment</h4>
+              <p>Evaluate current controls against NIST CSF, ISO 27001, and CIS benchmarks.</p>
+            </div>
+          </div>
+          <div class="posture-item">
+            <span class="posture-icon">&#9670;</span>
+            <div>
+              <h4>Risk Scoring &amp; Prioritisation</h4>
+              <p>Quantified risk ratings with a clear roadmap for remediation by business impact.</p>
+            </div>
+          </div>
+          <div class="posture-item">
+            <span class="posture-icon">&#9670;</span>
+            <div>
+              <h4>Policy &amp; Procedure Review</h4>
+              <p>Audit of security policies, access management, and incident response procedures.</p>
+            </div>
+          </div>
+          <div class="posture-item">
+            <span class="posture-icon">&#9670;</span>
+            <div>
+              <h4>Employee Awareness Testing</h4>
+              <p>Phishing simulations and social engineering assessments to gauge human risk.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Firewall / EDR / DLP -->
+      <div class="service-block">
+        <div class="service-block-header">
+          <div class="service-number">03</div>
+          <div>
+            <h3>Next-Gen Firewall, EDR &amp; DLP Deployment</h3>
+            <p class="service-desc">Enterprise security infrastructure designed, deployed, and tuned for your environment.</p>
+          </div>
+        </div>
+        <div class="deploy-grid">
+          <div class="deploy-card">
+            <div class="deploy-badge">NxGW Firewall</div>
+            <h4>Network Perimeter Defence</h4>
+            <p>Deep packet inspection, application-aware filtering, IDS/IPS, VPN, and zero-trust network segmentation.</p>
+          </div>
+          <div class="deploy-card">
+            <div class="deploy-badge">EDR</div>
+            <h4>Endpoint Detection &amp; Response</h4>
+            <p>Real-time behavioural monitoring, automated threat containment, and full endpoint telemetry.</p>
+          </div>
+          <div class="deploy-card">
+            <div class="deploy-badge">DLP</div>
+            <h4>Data Loss Prevention</h4>
+            <p>Policy-driven control of sensitive data movement across endpoints, email, cloud, and USB.</p>
+          </div>
+          <div class="deploy-card deploy-card-full">
+            <div class="deploy-badge">SOC Integration</div>
+            <h4>Centralised SIEM &amp; SOC Configuration</h4>
+            <p>All deployed tools are fully integrated into your SIEM/SOC stack with custom alerting, dashboards, and playbooks — ensuring complete visibility from day one.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Managed SOC -->
+      <div class="service-block">
+        <div class="service-block-header">
+          <div class="service-number">04</div>
+          <div>
+            <h3>Managed SOC Services</h3>
+            <p class="service-desc">24/7 eyes-on-glass security operations without the overhead of an in-house team.</p>
+          </div>
+        </div>
+        <div class="soc-features">
+          <div class="soc-feature">
+            <div class="soc-icon">24/7</div>
+            <h4>Round-the-Clock Monitoring</h4>
+            <p>Continuous threat detection, triage, and escalation — nights, weekends, and holidays included.</p>
+          </div>
+          <div class="soc-feature">
+            <div class="soc-icon">
+              <svg viewBox="0 0 28 28" fill="none"><path d="M14 3L5 8V15C5 20 9 24.4 14 25.5C19 24.4 23 20 23 15V8L14 3Z" stroke="currentColor" stroke-width="1.8"/></svg>
+            </div>
+            <h4>Incident Response</h4>
+            <p>Rapid containment, forensic investigation, and guided remediation when threats materialise.</p>
+          </div>
+          <div class="soc-feature">
+            <div class="soc-icon">
+              <svg viewBox="0 0 28 28" fill="none"><rect x="4" y="4" width="20" height="20" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M9 14H19M9 10H19M9 18H15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h4>Compliance Reporting</h4>
+            <p>Monthly and ad-hoc reports aligned to GDPR, PCI-DSS, HIPAA, and ISO 27001 requirements.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Threat Intelligence -->
+      <div class="service-block">
+        <div class="service-block-header">
+          <div class="service-number">05</div>
+          <div>
+            <h3>Threat Intelligence Services</h3>
+            <p class="service-desc">Actionable, contextualised intelligence to stay ahead of emerging threats targeting your sector.</p>
+          </div>
+        </div>
+        <div class="ti-grid">
+          <div class="ti-item">
+            <h4>Strategic Intelligence</h4>
+            <p>Executive-level reports on threat actor trends, geopolitical risks, and sector-specific campaigns.</p>
+          </div>
+          <div class="ti-item">
+            <h4>Tactical Intelligence</h4>
+            <p>TTPs (Tactics, Techniques &amp; Procedures) mapped to MITRE ATT&amp;CK for analyst-level consumption.</p>
+          </div>
+          <div class="ti-item">
+            <h4>Operational Intelligence</h4>
+            <p>Real-time IOC feeds, dark web monitoring, and brand/credential exposure alerting.</p>
+          </div>
+          <div class="ti-item">
+            <h4>Vulnerability Intelligence</h4>
+            <p>Prioritised CVE tracking with exploit availability scoring tailored to your asset inventory.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DIGITAL FORENSICS ===== -->
+  <section class="service-detail alt-bg" id="forensics">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-forensics">Digital Forensics</span>
+        <h2>Uncover the Truth — Preserve the Evidence</h2>
+        <p>Rigorous, court-admissible digital forensics carried out by certified investigators.</p>
+      </div>
+
+      <div class="forensics-grid">
+        <!-- Damaged Drive Forensics -->
+        <div class="forensics-card">
+          <div class="forensics-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="8" y="20" width="48" height="28" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="48" cy="34" r="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M12 28H36M12 34H28M12 40H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M28 8L22 20M36 8L30 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>Damaged Drive Forensics</h3>
+          <p class="forensics-intro">Specialised acquisition and analysis of physically or logically compromised storage media.</p>
+          <div class="forensics-details">
+            <div class="detail-row">
+              <span class="detail-label">Media Handled</span>
+              <span>HDDs, SSDs, NVMe, RAID, USB, eMMC</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Damage Types</span>
+              <span>Fire, flood, physical impact, firmware corruption, ransomware</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Methodology</span>
+              <span>Write-blocked imaging, hash verification, chain-of-custody documentation</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Deliverables</span>
+              <span>Forensic image, evidence report, expert witness statement available</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image & Video Analysis -->
+        <div class="forensics-card">
+          <div class="forensics-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="6" y="14" width="52" height="36" rx="4" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="22" cy="28" r="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 50L26 36L34 44L42 34L50 50" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="46" cy="22" r="3" stroke="currentColor" stroke-width="1.8"/>
+            </svg>
+          </div>
+          <h3>Image &amp; Video Analysis</h3>
+          <p class="forensics-intro">Advanced techniques to authenticate, enhance, and extract intelligence from multimedia evidence.</p>
+          <div class="forensics-details">
+            <div class="detail-row">
+              <span class="detail-label">Authentication</span>
+              <span>Metadata analysis, ELA (Error Level Analysis), deepfake detection</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Enhancement</span>
+              <span>AI-assisted upscaling, de-blurring, low-light enhancement, frame extraction</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Source Tracing</span>
+              <span>Camera fingerprinting, geolocation extraction, timeline reconstruction</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Use Cases</span>
+              <span>Litigation support, HR investigations, law enforcement assistance</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="forensics-process">
+        <h3>Our Forensics Process</h3>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <h4>Identification</h4>
+            <p>Scope definition, evidence identification, and legal authority verification.</p>
+          </div>
+          <div class="process-arrow">&#10132;</div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <h4>Preservation</h4>
+            <p>Write-blocked acquisition with cryptographic hash validation.</p>
+          </div>
+          <div class="process-arrow">&#10132;</div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <h4>Analysis</h4>
+            <p>Deep-dive examination using industry-standard forensic toolkits.</p>
+          </div>
+          <div class="process-arrow">&#10132;</div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <h4>Reporting</h4>
+            <p>Comprehensive, court-admissible report with chain-of-custody records.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DATA RECOVERY ===== -->
+  <section class="service-detail" id="data-recovery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag tag-recovery">Data Recovery</span>
+        <h2>Recovery When It Matters Most</h2>
+        <p>Cutting-edge hardware and software solutions to recover data from the most challenging scenarios.</p>
+      </div>
+
+      <!-- Laminar Chamber -->
+      <div class="recovery-highlight">
+        <div class="recovery-highlight-content">
+          <div class="rh-badge">ISO Class 5 Cleanroom</div>
+          <h3>Laminar Chamber for Physical HDD Recovery</h3>
+          <p>
+            Our ISO-certified laminar flow cleanroom meets Class 5 (ISO 14644-1) standards — the same environment
+            used by hard drive manufacturers. This controlled environment is essential for opening sealed drives,
+            replacing platters, read/write heads, and PCBs without introducing contamination that would permanently
+            destroy data.
+          </p>
+          <ul class="rh-list">
+            <li>Head crash and stiction recovery</li>
+            <li>Platter transplant for severely damaged drives</li>
+            <li>Firmware-level repair and sector remapping</li>
+            <li>PCB replacement and component-level repair</li>
+            <li>Demagnetised or overwritten sector recovery</li>
+          </ul>
+        </div>
+        <div class="recovery-highlight-visual">
+          <div class="cleanroom-visual">
+            <div class="cr-label">ISO Class 5</div>
+            <div class="cr-particles">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="cr-table">
+              <div class="cr-drive"></div>
+              <div class="cr-tool"></div>
+            </div>
+            <div class="cr-airflow">
+              <span>&#9660;</span><span>&#9660;</span><span>&#9660;</span>
+              <span class="cr-airflow-label">Filtered Laminar Airflow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Software Solutions -->
+      <div class="software-solutions">
+        <h3>Hardware-Software Recovery Solutions</h3>
+        <div class="solution-cards">
+          <div class="solution-card mrtlab">
+            <div class="solution-logo">MRTLab</div>
+            <h4>MRT Ultimate Recovery</h4>
+            <p>
+              Professional data recovery toolkit for HDD and SSD recovery at the firmware level.
+              Supports Western Digital, Seagate, Toshiba, Samsung, and more with direct PCB communication.
+            </p>
+            <ul class="solution-features">
+              <li>Firmware module repair</li>
+              <li>SA zone reconstruction</li>
+              <li>ROM read/write support</li>
+              <li>Bad sector remapping</li>
+              <li>Head map configuration</li>
+            </ul>
+          </div>
+          <div class="solution-card dolphin">
+            <div class="solution-logo">Dolphin<span>DataLab</span></div>
+            <h4>Dolphin Data Lab Solutions</h4>
+            <p>
+              Advanced hardware-software platforms for deep HDD, SSD, and RAID data recovery —
+              trusted by forensic labs and recovery centres worldwide.
+            </p>
+            <ul class="solution-features">
+              <li>DFL family hardware tools</li>
+              <li>SSD recovery modules</li>
+              <li>RAID reconstruction</li>
+              <li>Image to image recovery</li>
+              <li>Supply &amp; support available</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recovery Types -->
+      <div class="recovery-types">
+        <h3>Failure Scenarios We Handle</h3>
+        <div class="rt-grid">
+          <div class="rt-item">
+            <span class="rt-icon">&#128293;</span>
+            <h4>Physical Damage</h4>
+            <p>Fire, flood, impact, and electrical surge damage to storage media.</p>
+          </div>
+          <div class="rt-item">
+            <span class="rt-icon">&#9881;</span>
+            <h4>Mechanical Failure</h4>
+            <p>Head crash, spindle motor failure, seized actuator, and bearing wear.</p>
+          </div>
+          <div class="rt-item">
+            <span class="rt-icon">&#128200;</span>
+            <h4>Logical Corruption</h4>
+            <p>Deleted files, formatted partitions, corrupted file systems, and MBR/GPT damage.</p>
+          </div>
+          <div class="rt-item">
+            <span class="rt-icon">&#128274;</span>
+            <h4>Ransomware Encryption</h4>
+            <p>Working with law enforcement and decryption keys to recover encrypted data.</p>
+          </div>
+          <div class="rt-item">
+            <span class="rt-icon">&#128190;</span>
+            <h4>Firmware Corruption</h4>
+            <p>Service area and module repair to bring drives back to a functional state.</p>
+          </div>
+          <div class="rt-item">
+            <span class="rt-icon">&#128225;</span>
+            <h4>RAID &amp; NAS Failure</h4>
+            <p>Array reconstruction for RAID 0/1/5/6/10 and NAS appliances of all vendors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why CyberShield Pro</span>
+        <h2>Your Trusted Security Partner</h2>
+        <p>Decades of combined experience. Certifications that matter. Results you can rely on.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">&#127942;</div>
+          <h4>Certified Professionals</h4>
+          <p>OSCP, CEH, CHFI, GCFE, CISSP, and CISM-certified engineers delivering every engagement.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#128196;</div>
+          <h4>Vendor-Neutral</h4>
+          <p>We recommend what is right for your environment, not what earns us the highest margin.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#128274;</div>
+          <h4>Confidential by Design</h4>
+          <p>Every engagement is governed by a strict NDA. Your data never leaves our secure facility.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#128200;</div>
+          <h4>Measurable Outcomes</h4>
+          <p>Clear metrics, KPIs, and executive summaries so leadership can track security improvement.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#9993;</div>
+          <h4>Rapid Response</h4>
+          <p>Emergency response SLAs as low as 2 hours for critical incidents and data loss events.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">&#127758;</div>
+          <h4>Global Reach</h4>
+          <p>Remote and on-site engagements delivered worldwide with local regulatory knowledge.</p>
+        </div>
+      </div>
+
+      <!-- Certifications / Logos bar -->
+      <div class="certs-bar">
+        <span class="cert-badge">OSCP</span>
+        <span class="cert-badge">CEH</span>
+        <span class="cert-badge">CHFI</span>
+        <span class="cert-badge">GCFE</span>
+        <span class="cert-badge">CISSP</span>
+        <span class="cert-badge">CISM</span>
+        <span class="cert-badge">ISO 27001</span>
+        <span class="cert-badge">ISO 14644</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Get In Touch</span>
+          <h2>Start a Conversation</h2>
+          <p>Tell us about your challenge. Our team will respond within one business day.</p>
+          <div class="contact-methods">
+            <div class="contact-method">
+              <span class="cm-icon">&#128222;</span>
+              <div>
+                <h4>Call Us</h4>
+                <p>+1 (800) CYBERSHIELD</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <span class="cm-icon">&#9993;</span>
+              <div>
+                <h4>Email Us</h4>
+                <p>info@cybershieldpro.com</p>
+              </div>
+            </div>
+            <div class="contact-method">
+              <span class="cm-icon">&#128205;</span>
+              <div>
+                <h4>Emergency Line</h4>
+                <p>Available 24/7 for critical incidents</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Acme Corp" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@acmecorp.com" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+1 555 000 0000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Required</label>
+            <select id="service" name="service" required>
+              <option value="" disabled selected>Select a service...</option>
+              <optgroup label="Cybersecurity">
+                <option>Penetration Testing — Web Application</option>
+                <option>Penetration Testing — API</option>
+                <option>Penetration Testing — Mobile App</option>
+                <option>Security Posture Analysis</option>
+                <option>NxGW Firewall Deployment</option>
+                <option>EDR / DLP Deployment &amp; SOC Integration</option>
+                <option>Managed SOC Services</option>
+                <option>Threat Intelligence Services</option>
+              </optgroup>
+              <optgroup label="Digital Forensics">
+                <option>Damaged Drive Forensics</option>
+                <option>Image &amp; Video Analysis</option>
+              </optgroup>
+              <optgroup label="Data Recovery">
+                <option>Physical HDD Recovery (Cleanroom)</option>
+                <option>MRTLab Recovery Solution</option>
+                <option>Dolphin Data Lab Solution</option>
+                <option>Other Data Recovery</option>
+              </optgroup>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Situation</label>
+            <textarea id="message" name="message" rows="5" placeholder="Describe your current challenge, urgency, and any relevant details..."></textarea>
+          </div>
+          <div class="form-footer">
+            <label class="checkbox-label">
+              <input type="checkbox" required />
+              <span>I agree to the <a href="#">Privacy Policy</a> and understand my data will be handled under strict NDA.</span>
+            </label>
+            <button type="submit" class="btn btn-primary btn-full">Send Enquiry &nbsp;&#10132;</button>
+          </div>
+          <div class="form-success" id="formSuccess">
+            Your enquiry has been sent. We'll be in touch within one business day.
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-icon">&#9632;</span>
+            <span class="logo-text">Cyber<span class="accent">Shield</span> Pro</span>
+          </a>
+          <p>Enterprise IT security, forensics, and data recovery — protecting organisations worldwide.</p>
+          <div class="social-links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="Twitter">X</a>
+            <a href="#" aria-label="GitHub">GH</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Cybersecurity</h5>
+          <ul>
+            <li><a href="#pentest">Penetration Testing</a></li>
+            <li><a href="#cybersecurity">Security Posture Analysis</a></li>
+            <li><a href="#cybersecurity">Firewall &amp; EDR Deployment</a></li>
+            <li><a href="#cybersecurity">Managed SOC</a></li>
+            <li><a href="#cybersecurity">Threat Intelligence</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Forensics &amp; Recovery</h5>
+          <ul>
+            <li><a href="#forensics">Damaged Drive Forensics</a></li>
+            <li><a href="#forensics">Image &amp; Video Analysis</a></li>
+            <li><a href="#data-recovery">Laminar Chamber Recovery</a></li>
+            <li><a href="#data-recovery">MRTLab Solutions</a></li>
+            <li><a href="#data-recovery">Dolphin Data Lab</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Responsible Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CyberShield Pro. All rights reserved.</p>
+        <p class="footer-disclaimer">All penetration testing and forensic services are performed under written authorisation only.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
